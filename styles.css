@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+body{
+    background-color: rgb(176, 214, 129);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+    font-variation-settings:
+    "ROND" 0;
+    font-size: 4.5rem;
+    color: black;
+}
+
+div{
+    text-align: center;
+}
+
+.head{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.choices{
+    margin-bottom: 30px;
+}
+
+.choices button{
+    font-size: 70px;
+    min-height: 1.7em;
+    min-width: 1.7em;
+    margin: 0 10px;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: font-size 0.5s, border-radius 0.8s;
+}
+
+.choices button:hover{
+    font-size: 90px;
+    border-radius: 20px;
+}
+
+.choices button:focus{
+    font-size: 90px;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color:#dd37c4;
+}
+
+#start button{
+    font-size: 20px;
+    border-radius: 10px;
+    min-height: 1.7em;
+    min-width: 1.7em;
+    cursor: pointer;
+}
+
+#instructions{
+    margin: 20px 0;
+}
+
+#play button{
+    margin-top: -30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    min-height: 1.5em;
+    min-width: 6em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#playerDisplay, #computerDisplay{
+    font-size: 2.5rem;
+}
+
+#resultDisplay{
+    font-size: 4rem;
+    margin: 30px 0;
+}
+
+#playAgain{
+    color: rgb(44, 61, 34);
+    margin: 30px 0;
+}
+
+#game{
+    display: none;
+}
